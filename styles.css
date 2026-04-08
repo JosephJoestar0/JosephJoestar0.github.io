@@ -43,44 +43,6 @@ header h1{
     color: white;
 }
 
-/*header .nav{
-
-    display: flex;
-    flex-direction:row;
-}
-
-header a{
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-
-header a:hover{
-    color: rgb(49, 159, 255);
-}
-
-#hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("imagenes/hero.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-#hero h1{
-    color: white;
-}*/
-
 #about{
     text-align: center;
     padding: 200px 12px;
