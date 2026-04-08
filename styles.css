@@ -1,4 +1,3 @@
-
 html{
     scroll-behavior: smooth;
 }
@@ -52,7 +51,33 @@ header h1{
     color: white;
 }
 
+.bloque img{
+    border-radius: 2%;
+    width: 550px;
+    height: 500px;
+    object-position: right;
+}
 
+#historia{
+    max-width: 1400px;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+#historia img{
+    border-radius: 2%;
+    width: 600px;
+}
+
+#demo{
+    color: white;
+    text-align: center;
+}
+
+#demo img{
+    width: 700px;
+}
 
 #nosotros{
     background-color: rgb(30,30,30);
@@ -60,22 +85,13 @@ header h1{
     text-align: center;
 }
 
-#nosotros.container{
-    padding: 150px 12px;
-}
 
-#nosotros h2{
-    background-color: rgb(30,30,30);
-    color: white;
-    text-align: center; 
-}
-
-#nosotros .miembro{
-    background-position: center center;
+#nosotros .miembros{
     background-size: cover;
-    padding: 50px 0px;
-    margin: 30px;
-    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .miembro:first-child{
@@ -85,6 +101,10 @@ header h1{
         rgba(0,0,0,0.5)
     )
     ,url("imagenes/gato.png");
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
 }
 
 .miembro:nth-child(2){
@@ -94,6 +114,10 @@ header h1{
         rgba(0,0,0,0.5)
     )
     ,url("imagenes/iguana.png");
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
 }
 
 .miembro:nth-child(3){
@@ -103,6 +127,10 @@ header h1{
         rgba(0,0,0,0.5)
     )
     ,url("imagenes/tiburon.png");
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
 }
 
 .miembro:nth-child(4){
@@ -112,6 +140,10 @@ header h1{
         rgba(0,0,0,0.5)
     )
     ,url("imagenes/jirafa.png");
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
 }
 
 .miembro:nth-child(5){
@@ -121,6 +153,10 @@ header h1{
         rgba(0,0,0,0.5)
     )
     ,url("imagenes/hipo.png");
+    padding: 20px;
+    height: 400px;
+    width: 350px;
+    border-radius: 100%;
 }
 
 .miembro:nth-child(6){
@@ -130,5 +166,8 @@ header h1{
         rgba(0,0,0,0.5)
     )
     ,url("imagenes/rino.png");
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
 }
-
