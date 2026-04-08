@@ -67,7 +67,7 @@
             </div>
         </div>
     </section>
-    <footer>Redes sociales
+    <footer>
         <h3>Los desarrolladores nos disculpamos por el poco progreso que hay de el juego</h3>
     </footer>
 </body>
