@@ -101,7 +101,7 @@ header h1{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/gato.png");
+    ,url("imagenes/gato.webp");
     padding: 20px;
     height: 400px;
     width: 400px;
@@ -114,7 +114,7 @@ header h1{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/iguana.png");
+    ,url("imagenes/iguana.webp");
     padding: 20px;
     height: 400px;
     width: 400px;
@@ -127,7 +127,7 @@ header h1{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/tiburon.png");
+    ,url("imagenes/tiburon.webp");
     padding: 20px;
     height: 400px;
     width: 400px;
@@ -140,7 +140,7 @@ header h1{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/jirafa.png");
+    ,url("imagenes/jirafa.webp");
     padding: 20px;
     height: 400px;
     width: 400px;
@@ -153,7 +153,7 @@ header h1{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/hipo.png");
+    ,url("imagenes/hipo.webp");
     padding: 20px;
     height: 400px;
     width: 350px;
@@ -166,9 +166,13 @@ header h1{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/rino.png");
+    ,url("imagenes/rino.webp");
     padding: 20px;
     height: 400px;
     width: 400px;
     border-radius: 100%;
+}
+
+footer{
+    text-align: center;
 }
