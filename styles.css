@@ -1,18 +1,15 @@
-
-html{
-    scroll-behavior: smooth;
+*{
+    margin: 0;
 }
 
 body{
-    margin: 0;
-    background-image: url("imagenes/fondo2.png");
+    background-image: url("imagenes/fondo2.webp");
 }
 
 h1{ font-size: 3.5em;}
 h2{ font-size: 2.7em;}
 h3{ font-size: 2em;}
 p{ font-size: 1.25em;}
-ul{ list-style: none;}
 li{ font-size: 1.25em;}
 
 .container{
@@ -22,7 +19,7 @@ li{ font-size: 1.25em;}
 
 header{
     margin: 0;
-        display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -33,8 +30,8 @@ header{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/hero.jpeg");
-    background-repeat: no-repeat;
+    ,url("imagenes/hero.webp");
+    background-repeat: repeat;
     background-size: cover;
     background-position: center center;
 }
@@ -54,9 +51,10 @@ header h1{
 
 .bloque img{
     border-radius: 2%;
+
     width: 550px;
     height: 500px;
-    object-position: right;
+    object-position: center;
 }
 
 #historia{
@@ -72,12 +70,13 @@ header h1{
 }
 
 #demo{
+    margin: 8em;
     color: white;
     text-align: center;
 }
 
 #demo img{
-    width: 700px;
+    width: 600px;
 }
 
 #nosotros{
@@ -86,16 +85,17 @@ header h1{
     text-align: center;
 }
 
-
 #nosotros .miembros{
     background-size: cover;
     align-items: center;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    padding: 10em;
 }
 
 .miembro:first-child{
+    background-position: center,center;
         background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
@@ -103,73 +103,78 @@ header h1{
     )
     ,url("imagenes/gato.webp");
     padding: 20px;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
 }
 
 .miembro:nth-child(2){
-    background-image: linear-gradient(
+    background-position: center,center;
+        background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
     ,url("imagenes/iguana.webp");
     padding: 20px;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
 }
 
 .miembro:nth-child(3){
-    background-image: linear-gradient(
+    background-position: center,center;
+        background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
     ,url("imagenes/tiburon.webp");
     padding: 20px;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
 }
 
 .miembro:nth-child(4){
-    background-image: linear-gradient(
+    background-position: center,center;
+        background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
     ,url("imagenes/jirafa.webp");
     padding: 20px;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
 }
 
 .miembro:nth-child(5){
-    background-image: linear-gradient(
+    background-position: center,center;
+        background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
     ,url("imagenes/hipo.webp");
     padding: 20px;
-    height: 400px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
 }
 
 .miembro:nth-child(6){
-    background-image: linear-gradient(
+    background-position: center,center;
+        background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
     ,url("imagenes/rino.webp");
     padding: 20px;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
 }
 
